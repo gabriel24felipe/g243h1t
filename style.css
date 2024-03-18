@@ -29,31 +29,27 @@
     padding-top: 4px;
     padding-bottom: 6px;
 }
-
-.aba1{
+.abageral{
     width: 100%;
     height: 400px;
+    display: none;
+}
+.aba1{
     background-color: lightgoldenrodyellow;
     display: none;
 }
 
 .aba2{
-    width: 100%;
-    height: 400px;
     background-color: cyan;
     display: none;
 }
 
 .aba3{
-    width: 100%;
-    height: 400px;
     background-color: lightcoral;
     display: none;
 }
 
 .aba4{
-    width: 100%;
-    height: 400px;
     background-color: teal;
     display: none;
 }
