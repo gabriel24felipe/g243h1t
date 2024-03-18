@@ -1,2 +1,3 @@
 # Dupla
-## Sakai (03), Ryu (27)
+### gabriel 11 hadassa ?
+
