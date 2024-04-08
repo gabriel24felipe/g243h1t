@@ -8,10 +8,8 @@ fazerSorteio = () => {
 
 }
 imprime = (msg) => console.log(msg);
-
+const data = new Date();
 function hora_atual (){
-     const data = new Date();
-     
     setTimeout(() => {
         document.getElementById("h").innerHTML = data.getHours() + ":" + data.getMinutes() + ":" + data.getSeconds();
         hora_atual();
@@ -22,12 +20,12 @@ function escolher_aba(btn){
     for(let i = 1; i <= 4; i++){
         let id_btn = "btn"+i;
         let id_aba = "ab"+i;
-        document.getElementById(id_btn).style.backgroundColor = "blueviolet";
+        document.getElementById(id_btn).style.backgroundColor = "red";
         document.getElementById(id_btn).disabled = false;
         document.getElementById(id_aba).style.display = "none";
     }
     if(btn == "1"){
-        document.getElementById("btn1").style.backgroundColor = "pink";
+        document.getElementById("btn1").style.backgroundColor = "white";
         document.getElementById("btn1").disabled = true;
         document.getElementById("ab1").style.display = "block";
     }
@@ -47,22 +45,20 @@ function escolher_aba(btn){
         document.getElementById("ab4").style.display = "block";
     }
 }
-
 let contador = null;
 let inicio = 0;
 let fim = 0;
- function contagem(){
-     if(inicio == fim + 1)contador.claerInverval();
-     else{
-          document.getElementById("valor").innerHTML = inicio;
-          inicio++;
-     }
- }
- 
+function contagem (){
+    if(inicio == Number (fim) + 1) contador.clearInveral();
+    else{
+        document.getElementById("valor").innerHTML = inicio;
+        inicio++;
+    }
+}
 function iniciar (){
-     inicio = document.getElementById("inicio").value;
-     fim = document.getElementById("fim").value;
-     contador = setInterval (() => {
-          contagem();
-     },1000);
+    inicio = document.getElementById("inicio").value;
+    fim = document .getElementById("fim").value;
+    contador = setInterval (() => {
+        contagem();
+    },1000);
 }
