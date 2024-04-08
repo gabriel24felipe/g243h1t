@@ -1,3 +1,3 @@
 # Dupla
-### gabriel 11 hadassa ?
+### gabriel 11 hadassa 14
 
