@@ -1,4 +1,2 @@
 # Dupla
-### Gabriel 11 
-### Hadassa 14
-
+## Sakai (03), Ryu (27)
